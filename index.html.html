@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGNOU SCHOLARSHIP FORM </title>
+    <link rel="stylesheet" href="learn.css">
+</head>
+
+
+<body>
+    <h2>Scholarship form </h2>
+    <form action="submit_form.php">
+    <label for="name">Name:
+    </label>
+    <input type="text" name="myName" id="name" >
+    <br>
+    <br>
+
+    <div>
+          roll no: <input type="text" name="myRoleNo">
+    </div>
+    <br>
+    
+    <div> class:<input type="radio" name="myClass">11th  <input type="radio" name="myClass"> 12th 
+    </div>
+    <br>
+
+    <div>
+          Gender:  <input type="radio" name="Gender"> Male
+          <input type="radio" name="Gender"> Female
+          <input type="radio" name="Gender"> Other
+    </div>
+    <br>
+
+    <div>
+        <label for="scholarship type">Scholarship Type</label>
+        <select name="Scholarship Type" id="scholarship type" >
+            <option value="for GEN"> General </option>
+            <option value="for OBC"> OBC </option>
+            <option value="for SC"> SC</option>
+            <option value="for ST"> ST</option>
+    </select>
+    </div>
+    <br>
+
+   <div>
+    <label for="date"> Date of Submission: </label>
+     <input type="date" name="myDate" id="date">
+    </div>
+    <br>
+    
+    <div>
+         Photo:<input type="file" >
+         Aadhar Card:<input type="file">
+         Signature:<input type="file">
+         Caste Certificate: <input type="file">
+
+    </div>
+    <br>
+
+    <div>
+        <label for="scholarship type">Scholarship Type</label>
+        <select name="Scholarship Type" id="scholarship type" >
+          <option value="for SC AND ST"> A </option>
+          <option value="for OBC"> B </option>
+          <option value="for GEN"> C </option>
+    </select>
+
+    </div>
+
+   
+    <div>
+          Are you eligible? <input type="checkbox">
+    </div>
+    <br>
+
+    <div>
+      Why you need scholarship ? <br>
+      <textarea name="myText" cols="30px" rows="10px" id="mytext"></textarea>
+    </div>
+    
+    <div>
+        Rate this form: <input type="range" value="1-100" min="1" max="100" >
+    </div>
+
+        <button type="Submit" >submit</button>
+
+        <input type="Reset" value="Reset"></form>
+
+      
+</body>
+</html>
